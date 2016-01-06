@@ -1,3 +1,10 @@
-declare module simplify {
-  export function points(points: number[][], tolerance: number, highestQuality: boolean): number[][];
+declare module Simplify {
+  interface Point {
+    x: number;
+    y: number;
+  }
 }
+
+declare function simplify(points: Array<Array<Simplify.Point>>, tolerance: number, highestQuality: boolean): Array<Array<Simplify.Point>>;
+
+
