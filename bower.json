@@ -1,0 +1,24 @@
+{
+  "name": "simplify-js",
+  "description": "A high-performance JavaScript 2D/3D polyline simplification library",
+  "main": "simplify.js",
+  "authors": [
+    "Vladimir Agafonkin"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "math",
+    "geometry",
+    "polyline",
+    "simplification"
+  ],
+  "homepage": "https://github.com/mourner/simplify-js",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
